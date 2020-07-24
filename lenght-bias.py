@@ -14,6 +14,12 @@ Class size x gets oversampled by x
 
 import numpy as np
 class BiasChecker:
+    """
+    lenght_biased_sampling: Generate a biased sammple using weight of an unbiased sample.
+    Feed it with reverse weights of a biased sample;
+    biaschacker = BiasChecker()
+    reweighted = biaschacker.lenght_biased_sampling(sample, 1/sample)
+    """
     def lenght_biased_sampling(self, sample, weight):
         """
         Generate a biased sammple using weight of an unbiased sample.

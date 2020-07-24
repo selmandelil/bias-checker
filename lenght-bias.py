@@ -7,7 +7,7 @@ Average accross classes:
 
 Large classes get oversampled
 
-Class size x gets oversampled by x
+Class size x gets oversampled by x 
 
 """
 
